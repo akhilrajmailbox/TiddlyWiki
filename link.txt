@@ -1,0 +1,2 @@
+install in ubuntu ::
+http://datasciencedeconstructed.com/linux/2016/11/22/install-tiddlywiki-server.html
