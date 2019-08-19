@@ -7,5 +7,5 @@
 then edit /etc/apache2/sites-available/ldap.conf with your LDAP data
 restart your container
 ```
-docker run -it -v /home/akhil/Desktop/wiki:/opt/TiddlyWiki --name wiki --hostname wiki -p 80:80 -e LDAP_CONF=y akhilrajmailbox/tiddly-wiki:latest /bin/bash
+docker run -it -v /home/akhil/Desktop/wiki:/opt/TiddlyWiki --name wiki --hostname wiki -p 80:80 -e LDAP_CONF=y <<docker image>> /bin/bash
 ```
